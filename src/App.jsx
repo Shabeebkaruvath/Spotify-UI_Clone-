@@ -72,29 +72,53 @@ function App() {
             </div>
             <div className="boxmain1">
               <div className="boxeach">
-                <img src="https://c.saavncdn.com/038/Covers-Ac-sticos-Relajantes-xitos-Covers-Ac-sticos-Relajantes-Populares-English-2023-20221213140334-500x500.jpg" alt="song-img" className="box-img" />
+                <img
+                  src="https://c.saavncdn.com/038/Covers-Ac-sticos-Relajantes-xitos-Covers-Ac-sticos-Relajantes-Populares-English-2023-20221213140334-500x500.jpg"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist1</p>
               </div>
               <div className="boxeach">
-                <img src="https://m.media-amazon.com/images/I/41fuUx09N3L._SX450_.jpg" alt="song-img" className="box-img" />
+                <img
+                  src="https://m.media-amazon.com/images/I/41fuUx09N3L._SX450_.jpg"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist2</p>
               </div>
               <div className="boxeach">
-                <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Shakira_-_Shakira_%282014%29.png" alt="song-img" className="box-img" />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/en/3/35/Shakira_-_Shakira_%282014%29.png"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist3</p>
               </div>
             </div>
             <div className="boxmain2">
               <div className="boxeach">
-                <img src="https://i.discogs.com/AI6bDff_xdrq34hPh4UR2S0ICS5aUEQj8r6uhqkGLY8/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5Mzg5/MjktMTUxNDM4NTQy/MS0xMjkwLmpwZWc.jpeg" alt="song-img" className="box-img" />
+                <img
+                  src="https://i.discogs.com/AI6bDff_xdrq34hPh4UR2S0ICS5aUEQj8r6uhqkGLY8/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5Mzg5/MjktMTUxNDM4NTQy/MS0xMjkwLmpwZWc.jpeg"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist4</p>
               </div>
               <div className="boxeach">
-                <img src="https://cdns-images.dzcdn.net/images/cover/600fb04ed3b2470bead98bbd11fbda13/264x264.jpg" alt="song-img" className="box-img" />
+                <img
+                  src="https://cdns-images.dzcdn.net/images/cover/600fb04ed3b2470bead98bbd11fbda13/264x264.jpg"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist5</p>
               </div>
               <div className="boxeach">
-                <img src="https://c.saavncdn.com/586/Acoustified-Hits-Vol-9-English-2016-500x500.jpg" alt="song-img" className="box-img" />
+                <img
+                  src="https://c.saavncdn.com/586/Acoustified-Hits-Vol-9-English-2016-500x500.jpg"
+                  alt="song-img"
+                  className="box-img"
+                />
                 <p>Playlist6</p>
               </div>
             </div>
@@ -173,18 +197,18 @@ function App() {
         </div>
       </div>
       <div className="control-bar">
-         
+        <div className="control-details">
+          <p>STAY (with Justin Beiber)</p>
+          <pre>The Kid LAROI,Justin Beiber</pre>
+        </div>
         <div className="control-img">
           <img src={shuffle} alt="" />
           <img src={next} alt="" />
           <img src={play} alt="" />
           <img src={prev} alt="" />
           <img src={repeat} alt="" />
-
         </div>
-        <div>
-          <img src="" alt="" />
-        </div>
+         
       </div>
     </div>
   );
